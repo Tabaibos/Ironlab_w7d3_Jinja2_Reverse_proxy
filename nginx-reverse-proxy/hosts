@@ -1,0 +1,5 @@
+[reverse_proxy]
+reverse  ansible_host=13.217.116.102 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=~/joaquim-labsg-key.pem
+
+[upstream_server]
+upstream  ansible_host=54.198.253.30 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=~/joaquim-labsg-key.pem

@@ -1,0 +1,18 @@
+
+PLAY [Deploy Upstream Nginx Server] ********************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [upstream]
+
+TASK [Update apt cache and install Nginx] **************************************
+changed: [upstream]
+
+TASK [Deploy a sample index page] **********************************************
+changed: [upstream]
+
+RUNNING HANDLER [reload nginx] *************************************************
+changed: [upstream]
+
+PLAY RECAP *********************************************************************
+upstream                   : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

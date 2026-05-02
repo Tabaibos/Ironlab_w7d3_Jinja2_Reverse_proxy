@@ -1,0 +1,21 @@
+
+PLAY [Deploy Nginx Reverse Proxy] **********************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [reverse]
+
+TASK [Update apt cache and install Nginx] **************************************
+changed: [reverse]
+
+TASK [Deploy Nginx reverse proxy config from Jinja2 template] ******************
+changed: [reverse]
+
+TASK [Ensure Nginx is running and enabled] *************************************
+ok: [reverse]
+
+RUNNING HANDLER [reload nginx] *************************************************
+changed: [reverse]
+
+PLAY RECAP *********************************************************************
+reverse                    : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

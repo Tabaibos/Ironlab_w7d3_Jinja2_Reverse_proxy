@@ -1,0 +1,2 @@
+###Testing curls into both different IPs, this is their output \n
+Hello from the Upstream Server on port 80!Hello from the Upstream Server on port 80!Hello from the Upstream Server on port 80!

@@ -1,0 +1,8 @@
+instance_private_ips = {
+  "reverse-proxy" = "13.217.116.102"
+  "upstream-server" = "54.198.253.30"
+}
+instance_public_ips = {
+  "reverse-proxy" = "13.217.116.102"
+  "upstream-server" = "54.198.253.30"
+}
